@@ -11,23 +11,28 @@ source("R/resume_utils.R")
 source("R/icons.R")
 ```
 
-
 <section class="logo section">
 
 ![](assets/nataliariquelme.jpeg)
 
 <section class="title section">
+
 <h1>Natalia Riquelme</h1>
+
 <p>Data analyst and research asistant</p>
+
 </section>
 
-  
 <section class="intro section">
-<p> I'm a data analyst and research assistant. I'm studying for a master's degree in statistics. I enjoy statistical computing, modeling, programming and open science. I am co-organizer of R Ladies Concepción, a diversity initiative to achieve proportional representation in the R community by encouraging, inspiring and empowering people of currently underrepresented genders in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators or users </p>
+
+<p>I'm a data analyst and research assistant. I'm studying for a master's degree in statistics. I enjoy statistical computing, modeling, programming and open science. I am co-organizer of R Ladies Concepción, a diversity initiative to achieve proportional representation in the R community by encouraging, inspiring and empowering people of currently underrepresented genders in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators or users</p>
+
 </section>
 
 <section class="experience section">
+
 <h3>Experience</h3>
+
 <hr>
 
 ```{r, echo=FALSE}
@@ -56,19 +61,24 @@ job(
 </section>
 
 <section class="social section">
-<div class="link-container">
+
+::: link-container
 ```{r, echo=FALSE}
 twitter("https://twitter.com/NatyRiquelmeS")
 github("https://github.com/nataliariquelme")
 linkedin("https://www.linkedin.com/in/natalia-riquelme-504147195/")
 personal("https://nataliariquelme.netlify.app/")
 ```
-</div>
+:::
+
 </section>
 
 <section class="education section">
+
 <h3>Education</h3>
+
 <hr>
+
 ```{r, echo=FALSE}
 education(
   "Master in Statistics",
@@ -82,25 +92,32 @@ education(
   "2015-2020"
 )
 ```
+
 </section>
 
-
 <section class="skills section">
+
 <h3>Skills</h3>
+
 <hr>
-<div class="all-skills">
+
+::: all-skills
 ```{r, echo=FALSE}
 skill("R", 95)
 skill("Git & github", 95)
 skill("statistics", 70)
 skill("open science", 70)
 ```
-</div>
+:::
+
 </section>
 
 <section class="expertise section">
+
 <h3>Expertise</h3>
+
 <hr>
+
 ```{r, echo=FALSE}
 htmltools::tags$ul(class="alternating-list",
   htmltools::tags$li("data analysis"),
@@ -109,11 +126,15 @@ htmltools::tags$ul(class="alternating-list",
   htmltools::tags$li("modeling")
 )
 ```
+
 </section>
 
 <section class="Scholarships section">
+
 <h3>Awards</h3>
+
 <hr>
+
 ```{r, echo=FALSE}
 award(
   "ANID national master's scholarship 2021",
@@ -125,4 +146,5 @@ award(
   "For the financing of the total fee of the master's degree at the Catholic University of Chile"
 )
 ```
+
 </section>
