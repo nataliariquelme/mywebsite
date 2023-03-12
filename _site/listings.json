@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/projects.html",
-    "items": []
-  },
-  {
-    "listing": "/dataviz.html",
-    "items": []
-  },
-  {
     "listing": "/blog.html",
     "items": [
       "/posts/npm-to-r/NPM-to-R.html",
@@ -23,5 +15,13 @@
       "/posts/javascript-statements/index.html",
       "/posts/wtf-is-a-prototype/index.html"
     ]
+  },
+  {
+    "listing": "/dataviz.html",
+    "items": []
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
   }
 ]
