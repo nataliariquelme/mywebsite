@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Natalia Riquelme"
+  
+  navbar:
+    title: "Natalia<br>Riquelme"
+    right:
+      - href: blog.qmd
+        text: workshops
+      - href: projects.qmd
+        text: projects
+      - href: resume.qmd
+        text: resume
+        
+format:
+  html:
+    css: inst/css/styles.css
+    toc: true
+    metadata:
+      pagetitle: "Natalia Riquelme"
+
+
+

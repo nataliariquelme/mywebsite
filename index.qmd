@@ -1,0 +1,47 @@
+---
+format:
+  html:
+    css: inst/css/home.css
+---
+
+<section>
+
+<div class="img-bio">
+  <img class="author-photo" src="assets/nataliariquelme.jpeg" alt="photo of Natalia Riquelme"/>
+  <h2 style='font-weight:500!important;text-align:center!important;'>Natalia Riquelme</h2>
+  <h3 style="margin:0!important;padding:0!important;">Data analyst and research asistant</h3>
+  <div class="social">
+```{r, echo=FALSE}
+source("R/icons.R")
+twitter("https://twitter.com/NatyRiquelmeS")
+linkedin("https://www.linkedin.com/in/natalia-riquelme-504147195/")
+email("./contact.qmd")
+```
+  </div>
+</div>
+
+<div class="bio">
+<h1>Biography</h1>
+
+I'm studying for a master's degree in statistics. I enjoy statistical computing, modeling, programming and open science. I am co-organizer of R Ladies Concepción, a diversity initiative to achieve proportional representation in the R community by encouraging, inspiring and empowering people of currently underrepresented genders in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators or users.
+
+
+<div class="education">
+  <span class="activity">Education</span>
+<div class="education-element">
+<div class="icon">{{< fa graduation-cap >}}</div>
+<div class="degree">MSc in Statistics, 2023</div>
+<div class="school">Universidad Católica de Chile</div>
+</div>
+
+<div class="education-element">
+<div class="icon">{{< fa graduation-cap >}}</div>
+<div class="degree">Political science and administration, 2020</div>
+<div class="school">Universidad de Concepción</div>
+</div>
+</div>
+  
+</div>
+</div>
+
+</section>
