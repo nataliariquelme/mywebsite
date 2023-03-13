@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-freeze','listing-title-block-banner','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-image','listing-path','listing-filename','listing-file-modified','listing-reading-time','listing-format',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-freeze','listing-title-block-banner','listing-title','listing-author','listing-date','listing-description','listing-categories','listing-image','listing-path','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-freeze","listing-title-block-banner","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-image","listing-path","listing-filename","listing-file-modified","listing-reading-time","listing-format"],
+      searchColumns: ["listing-freeze","listing-title-block-banner","listing-title","listing-author","listing-date","listing-description","listing-categories","listing-image","listing-path","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -147,250 +147,49 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
-
 <div class="blog-page">
 <div class="blurb">
- <h1>writings</h1>
- <p>explaining techinical concepts to myself</p>
+ <h1>Workshops</h1>
+ <p>Workshops conducted with R Ladies Chile and R Ladies Concepción</p>
 </div>
 <div class="all-posts">
 <div class="blogpost">
-<a class="postlink" href="./posts/npm-to-r/NPM-to-R.html">
+<a class="postlink" href="./posts/buenas_practicas/index.html">
 <div class="postinfo">
     <div class="meta">
         <span class="categories secondary">
-          JavaScript
-        </span>
-        <span class="time secondary">
-          6 min read
-        </span>
-  </div>
-  <h3 class="title anchored">NPM to R!</h3>
-  <div class="description">Making my first NPM library to use in Observable (and R!)</div>
-  <div class="date">Aug 19, 2022</div>
-</div>
-<div class="post-img">
-<img src="./posts/npm-to-r/featured.png">
-</div>
-</a>
-</div>
-<div class="blogpost">
-<a class="postlink" href="./posts/moving-dom-elements/index.html">
-<div class="postinfo">
-    <div class="meta">
-        <span class="categories secondary">
-          R
+          R Ladies/ español
         </span>
         <span class="time secondary">
           4 min read
         </span>
   </div>
-  <h3 class="title anchored">Moving DOM Elements in Shiny</h3>
-  <div class="description">A datatable case study to move around DOM elements in Shiny.</div>
-  <div class="date">Feb 15, 2022</div>
+  <h3 class="title anchored">Aplicaciones prácticas con R</h3>
+  <div class="description">Taller R Ladies Chile </div>
+  <div class="date">Jan 16, 2020</div>
 </div>
 <div class="post-img">
-<img src="./posts/moving-dom-elements/featured.png">
+<img src="./posts/buenas_practicas/featured.png">
 </div>
 </a>
 </div>
 <div class="blogpost">
-<a class="postlink" href="./posts/being-trendy-learning-svelte/index.html">
+<a class="postlink" href="./posts/introduccion_a_r/index.html">
 <div class="postinfo">
     <div class="meta">
         <span class="categories secondary">
-          JavaScript
+          R Ladies/español
         </span>
         <span class="time secondary">
-          6 min read
+          8 min read
         </span>
   </div>
-  <h3 class="title anchored">Being Trendy, Learning Svelte</h3>
-  <div class="description">Documenting my first foray into the Svelte JavaScript frontend framework</div>
-  <div class="date">Aug 30, 2021</div>
+  <h3 class="title anchored">Introducción a R</h3>
+  <div class="description">¿Qué es R?</div>
+  <div class="date">May 14, 2019</div>
 </div>
 <div class="post-img">
-<img src="./posts/being-trendy-learning-svelte/featured.png">
-</div>
-</a>
-</div>
-<div class="blogpost">
-<a class="postlink" href="./posts/d3-to-r-to-d3/index.html">
-<div class="postinfo">
-    <div class="meta">
-        <span class="categories secondary">
-          JavaScript
-        </span>
-        <span class="time secondary">
-          11 min read
-        </span>
-  </div>
-  <h3 class="title anchored">D3 to R to D3</h3>
-  <div class="description">Documenting using D3 in R (without Observable)</div>
-  <div class="date">Aug 30, 2021</div>
-</div>
-<div class="post-img">
-<img src="./posts/d3-to-r-to-d3/featured.png">
-</div>
-</a>
-</div>
-<div class="blogpost">
-<a class="postlink" href="./posts/gsap-xaringan/index.html">
-<div class="postinfo">
-    <div class="meta">
-        <span class="categories secondary">
-          JavaScript
-        </span>
-        <span class="time secondary">
-          3 min read
-        </span>
-  </div>
-  <h3 class="title anchored">GSap and Xaringan</h3>
-  <div class="description">Using the GSAP animation library in Xaringan slides</div>
-  <div class="date">Aug 30, 2021</div>
-</div>
-<div class="post-img">
-<img src="./posts/gsap-xaringan/featured.png">
-</div>
-</a>
-</div>
-<div class="blogpost">
-<a class="postlink" href="./posts/r-functions-i-took-for-granted/index.html">
-<div class="postinfo">
-    <div class="meta">
-        <span class="categories secondary">
-          JavaScript
-        </span>
-        <span class="time secondary">
-          3 min read
-        </span>
-  </div>
-  <h3 class="title anchored">R Functions I Took for Granted</h3>
-  <div class="description">An ongoing list of functions I took for granted in R as I learn JavaScript</div>
-  <div class="date">Aug 30, 2021</div>
-</div>
-<div class="post-img">
-<img src="./posts/r-functions-i-took-for-granted/featured.png">
-</div>
-</a>
-</div>
-<div class="blogpost">
-<a class="postlink" href="./posts/skip-links/index.html">
-<div class="postinfo">
-    <div class="meta">
-        <span class="categories secondary">
-          JavaScript
-        </span>
-        <span class="time secondary">
-          5 min read
-        </span>
-  </div>
-  <h3 class="title anchored">Skip Links</h3>
-  <div class="description">Creating a Skip Link in Shiny apps!</div>
-  <div class="date">Aug 30, 2021</div>
-</div>
-<div class="post-img">
-<img src="./posts/skip-links/featured.png">
-</div>
-</a>
-</div>
-<div class="blogpost">
-<a class="postlink" href="./posts/custom-shiny-input/index.html">
-<div class="postinfo">
-    <div class="meta">
-        <span class="categories secondary">
-          JavaScript
-        </span>
-        <span class="time secondary">
-          4 min read
-        </span>
-  </div>
-  <h3 class="title anchored">Custom Shiny Input</h3>
-  <div class="description">Creating a custom Shiny Input</div>
-  <div class="date">Aug 14, 2020</div>
-</div>
-<div class="post-img">
-<img src="./posts/custom-shiny-input/featured.png">
-</div>
-</a>
-</div>
-<div class="blogpost">
-<a class="postlink" href="./posts/live-coding-interview/index.html">
-<div class="postinfo">
-    <div class="meta">
-        <span class="categories secondary">
-          R
-        </span>
-        <span class="time secondary">
-          6 min read
-        </span>
-  </div>
-  <h3 class="title anchored">My First Live Coding Interview</h3>
-  <div class="description">I tanked my first live coding interview but that still made me want to find answers to all their questions</div>
-  <div class="date">Aug 27, 2019</div>
-</div>
-<div class="post-img">
-<img src="./posts/live-coding-interview/featured.png">
-</div>
-</a>
-</div>
-<div class="blogpost">
-<a class="postlink" href="./posts/why-would-i-settimeout0/index.html">
-<div class="postinfo">
-    <div class="meta">
-        <span class="categories secondary">
-          JavaScript
-        </span>
-        <span class="time secondary">
-          4 min read
-        </span>
-  </div>
-  <h3 class="title anchored">Why Would I setTimeout(0)?</h3>
-  <div class="description">Trying to understand the weird world of async javascript</div>
-  <div class="date">Aug 14, 2019</div>
-</div>
-<div class="post-img">
-<img src="./posts/why-would-i-settimeout0/featured.png">
-</div>
-</a>
-</div>
-<div class="blogpost">
-<a class="postlink" href="./posts/javascript-statements/index.html">
-<div class="postinfo">
-    <div class="meta">
-        <span class="categories secondary">
-          JavaScript
-        </span>
-        <span class="time secondary">
-          6 min read
-        </span>
-  </div>
-  <h3 class="title anchored">JavaScript Statements</h3>
-  <div class="description">Statements aren't functions? Explaining the different and walking through some different JavaScript statements.</div>
-  <div class="date">Aug 2, 2019</div>
-</div>
-<div class="post-img">
-<img src="./posts/javascript-statements/featured.png">
-</div>
-</a>
-</div>
-<div class="blogpost">
-<a class="postlink" href="./posts/wtf-is-a-prototype/index.html">
-<div class="postinfo">
-    <div class="meta">
-        <span class="categories secondary">
-          JavaScript
-        </span>
-        <span class="time secondary">
-          3 min read
-        </span>
-  </div>
-  <h3 class="title anchored">WTF is a Prototype</h3>
-  <div class="description">Walking through what JavaScript prototypes are so I can better understand them myself</div>
-  <div class="date">Jul 22, 2019</div>
-</div>
-<div class="post-img">
-<img src="./posts/wtf-is-a-prototype/featured.png">
+<img src="./posts/introduccion_a_r/featured.png">
 </div>
 </a>
 </div>

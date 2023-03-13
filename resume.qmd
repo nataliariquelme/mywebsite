@@ -131,7 +131,7 @@ htmltools::tags$ul(class="alternating-list",
 
 <section class="Scholarships section">
 
-<h3>Awards</h3>
+<h3>Scholarships</h3>
 
 <hr>
 

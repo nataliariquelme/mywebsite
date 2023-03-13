@@ -1,0 +1,140 @@
+---
+title: "Aplicaciones prácticas con R"
+author: "Natalia Riquelme e Isidora Castillo"
+date: '2020-01-16'
+description: "Taller R Ladies Chile "
+categories: [R Ladies/ español]
+image: "featured.png"
+---
+
+## ¿Cómo afrontar este desafío?
+
+En este taller se repasaron algunos consejos para trabajar con R y no morir en el intento:
+
+1.  Se curioso: La curiosidad es buena: Hazte preguntas sobre los datos que tienes, busca,
+    informate. Esto aumentará tu interés y mejorará tu enfoque.
+
+2.  No te desanimes: Los lenguajes de programación no son simples de aprender, pero con trabajo y motivación veras como en poco tiempo lograrás grandes avances.
+
+3.  Nunca dejes de aprender: La web tiene tantos recursos gratuitos, consejos y tutoriales sobre cómo usar R; junto con paquetes de muestra que puedes descargar. ¡Úsalos para tu ventaja!
+
+## Prácticas que pueden ayudarte:
+
+-   Descarga e instala R & R Studio IDE (Interactive development
+    environment): Estos permiten una revisión de sintaxis y completar los comandos de los objetos (TAB).
+
+-   Practica la instalación de paquetes: Puede usar http://swirlstats.com/ Es un sitio que te permite aprender R mientras estás usando R:
+
+    ```{r, eval=FALSE}
+    ## install.packages(swirl)
+    library(swirl)
+    ```
+
+-    Leer la documentación: Utiliza todas las herramientas que que la web puede darte para aprender. Leer manuales y blogs puede ayudar mucho a tu conocimiento. La comunidad
+    de R es bastante activa en twitter, por lo que esta herramienta tambien es de
+    utilidad (tip: busca el hashtag #Rstats).
+
+-   Usa Github: Github es una interfaz gráfica web-based que funciona como servicio de
+    alojamiento de repositorios, permitiendo alojar proyectos utilizando el
+    sistema de control de versiones Git.
+
+-   Usa datos con los que te sientas cómoda/o: Al comenzar a aprender sobre el análisis de datos es recomendable usar datos que ya conoces, será más fácil entenderlo todo si está familiarizado con el tema / puntos de datos.
+
+-   Visualización: Ser creativo, crear cuadros y gráficos y volverlos coloridos permitirá ver lo
+    que estás haciendo y te motivará a seguir adelante.
+
+-   Comentarios: Agrega comentarios a tu código para que al volver a revisarlos puedas recordar qué es lo que querías hacer. Estos comentarios ayudarán a otros a entender tu código y cuando leas el código de alguien más podras saber qué es lo que quería lograr. Inserta comentarios comenzando la declaración con un signo \# ctrl + shift + r
+
+## Crea un buen script
+
+Un buen script tiene 2 características:
+
+1.   Los humanos pueden leerlo bien.
+
+2.  Es lo más auto-explicativo posible.
+
+### Recomendaciones:
+
+La consistencia es clave y, como cualquier otro idioma, permite que otros te entiendan.
+
+-   Hacer sangrías
+
+-   Usar espacios
+
+Es recomendado por varios expertos que se utilice \'\<-\', ya que \'=\' es utilizado por muchas llamadas a funciones y definiciones. Alt + -
+
+## Crea proyectos y gestionalos: 
+
+Un proyecto en RStudio es una colección de trabajos organizados en una carpeta de trabajo. RStudio proporciona herramientas que te ayudarán a
+administrar tu trabajo en proyectos. RStudio recuerda qué archivos tenías abiertos y qué pestañas se mostraban cuando cierras un proyecto. Cuando abras el proyecto nuevamente, RStudio abrirá los mismos archivos y mostrará las mismas pestañas. Esto te permitirá retomar rápidamente tu trabajo.
+
+### Sugerencias para organizar carpetas dentro de un proyecto
+
+-   Crea una subcarpeta para tus datos originales
+
+-   Crea una subcarpeta para los datos limpios
+
+-   Crea una subcarpeta para sus scripts
+
+-   Crea una carpeta para cada documento
+
+-   Crea una carpeta si necesita guardar figuras
+
+#### Dentro de sus carpeta de scripts puede ayudar la creación de varios
+ficheros funcionales númerados, por ejemplo:
+
+-   00_load.R, puedes cargar tus datos en varios formatos
+
+-   01_clean.R, para limpiar los datos; típicamente, este fichero suele crecer a lo largo del análisis
+
+-   02_eda.R, para en análisis exploratorio y gráfico
+
+-   03_analysis_cca.R, por ejemplo
+
+-   04_analysis_reg.R, ...
+
+## Atajos de teclado
+
+-   R Studio nos entrega una enorme cantidad de Keyboard Shortcuts que te ayudaran a ahorrar tu recurso más valioso: Tiempo. Algunos de estos atajos son:
+
+-   Ctrl / Cmd + Enter ejecuta la línea / bloque de código R en la consola R
+
+-   Ctrl + 1 salta al script
+
+-   Ctrl + 2 saltar a la consola R
+
+-   Ctrl + W cerrar la pestaña abierta (variaciones: Ctrl + Shift + w/ Ctrl + Alt +Shift + w)
+
+-   Ctrl + Shift + N nuevo script
+
+-   Ctrl + Shift + C comentar la línea
+
+-   Ctrl + Shift + R insertar salto de sección
+
+-   Ctrl + Alt + i insertar un fragmento Rmd vacío
+
+-   Alt + - inserta el \<-
+
+-   Ctrl + Shift + M inserta el operador de la tubería %\>%
+
+-   Ctrl + D elimina toda la línea
+
+-   Alt + ↑/ ↓ Permite mover lineas de código
+
+## Code Snippets
+
+Los Code Snippets o fragmentos de código son macros de texto que se utilizan para insertar rápidamente fragmentos comunes de código. Nos permiten ahorrar tiempo guardando la gramática de nuestros códigos más usados. Los code snippets pueden ser personalizados llendo a Tools \> Code \> Edit Snippets o a través de la siguiente linea de código:
+
+```{r, eval=FALSE}
+usethis::edit_rstudio_snippets()
+
+```
+
+Espero que te sean útiles estos consejos! Puedes encontrar más información y algunos ejercicios en [Github R Ladies Chile](https://github.com/rladieschile/taller-introductorio-mayo)
+
+
+
+
+
+
+
